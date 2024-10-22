@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+header{
+    background: url(images/bg_cabezote.jpg) bottom repeat-x ;
+    height: 230px;
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 30px;
+}
+#logo{
+    background: url(images/logo_corporacion_diafora.png) no-repeat;
+    height: 180px;
+    width: 280px;
+}
+#logo a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#logo h1{
+    display: none;
+}
+.mainmenu{
+    width: 250px;
+    vertical-align: top;
+    background: #feb228 url(images/bg_botones_top.jpg) no-repeat;
+    
+}
+
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #feb228 url(images/bg_botones_abajo.jpg) no-repeat;
+}
+
+.mainmenu ul li{
+   color: #fff;
+   text-indent: 15px;
+   padding: 6px 0;
+   border-bottom: dotted #fff 1px ;
+   font-size: 20px;
+}
+.banner{
+    margin-left: 40px;
+
+}
+section{
+    background: rgb(218, 217, 217) ;
+}
+
+.flex{
+   display: flex;
+   column-gap: 2%;
+   flex-wrap: wrap;
+   margin-left: 50px;
+}
+
+article{
+    width: 48%;
+}
+
+aside p{
+    border-bottom: #000 solid 5px;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 25;
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+.mitad li{
+    color: rgb(247, 140, 0);
+   text-indent: 15px;
+   padding: 6px;
+   border-bottom: dotted rgb(201, 201, 201) 1px ;
+   border-right: dotted rgb(201, 201, 201) 1px ;
+   border-left: dotted rgb(201, 201, 201) 1px ;
+   text-align: center;
+}
+
+.ultimo li{color: rgb(247, 140, 0);
+   text-indent: 15px;
+   padding: 6px;
+   border-bottom: dotted rgb(201, 201, 201) 1px ;
+   padding: 5px;
+}                                 

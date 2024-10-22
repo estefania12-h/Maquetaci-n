@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(168, 187, 248);
+    height: 100px;
+
+}
+
+nav {
+    background-color: rgb(110, 110, 202);
+    height: 30px;
+
+}
+
+aside {
+    background-color: rgb(248, 176, 176);
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+article {
+    background-color: rgb(194, 151, 214);
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(241, 104, 104);
+    height: 88px;
+}
+
+@media (min-width: 992px) {
+    .flex {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        flex-grow: 4;
+        height: 300px;
+    }
+
+    section {
+        flex-grow: 8;
+    }
+
+    article {
+        flex: 1 1 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .noflex {
+        display: block;
+    }
+
+    nav {
+        height: 35px;
+    }
+}
