@@ -1,0 +1,32 @@
+
+body{
+    background-color: rgb(177, 201, 250);
+}
+img{
+    width: 100%;
+}
+@media (min-width: 567px){
+    body{
+        background-color: rgb(228, 210, 245);
+    }
+}
+
+@media (min-width: 992px){
+    body{
+        background-color: rgb(245, 204, 231);
+    }
+    img{
+        width: 48%;
+    }
+    h1{
+        color: cornflowerblue;
+        text-align: center;
+        background-color:blanchedalmond;
+        padding: 20px;
+        width: 80%;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+}
+
